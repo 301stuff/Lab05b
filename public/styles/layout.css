@@ -1,91 +1,98 @@
 @media all and (max-width: 767px) {
+    #container {
+        display: grid;
+        grid-template-areas: 
+        "a a"
+        "b b"
+        "c c"
+        "d d"
+        "e f"
+        "g h"
+        "i i";
+    }
+
     #a {
-        width: 100%;
+        grid-area: a;
         height: 75px;
     }
     #b {
-        width: 100%;
+        grid-area: b;
         height: 150px;
     }
     #c {
-        width: 100%;
+        grid-area: c;
         height: 125px;
     }
     #d {
-        width: 100%;
+        grid-area: d;
         height: 125px;
     }
     #e {
-        width: 50%;
+        grid-area: e;
         height: 250px;
-        float: left;
     }
     #f {
-        width: 50%;
+        grid-area: f;
         height: 250px;
-        float: right;
     }
     #g {
-        width: 50%;
+        grid-area: g;
         height: 250px;
-        float: left;
     }
     #h {
-        width: 50%;
+        grid-area: h;
         height: 250px;
-        float: right;
     }
     #i {
-        width: 100%;
+        grid-area: i;
         height: 80px;
-        clear: both;
     }
 
 }
 @media all and (min-width: 768px) {
+    #container {
+        display: grid;
+        grid-template-areas: 
+        "a a a a a"
+        "b c c d d"
+        "b e f g h"
+        "b i i i i";
+    }
     #a {
-        width: 100%;
+        grid-area: a;
         height: 100px;
     }
     #b {
-        width: 20.83%;
+        grid-area: b;
         height: 600px;
-        float: left;
     }
     #c {
-        width: 39.58%;
+        grid-area: c;
         height: 200px;
-        float: left;
     }
     #d {
-        width: 39.58%;
+        grid-area: d;
         height: 200px;
-        float: left;
     }
     #e {
-        width: 19.79%;
+        grid-area: e;
         height: 250px;
-        float: left;
     }
     #f {
-        width: 19.79%;
+        grid-area: f;
         height: 250px;
-        float: left;
     }
     #g {
-        width: 19.79%;
+        grid-area: g;
         height: 250px;
-        float: left;
     }
     #h {
-        width: 19.79%;
+        grid-area: h;
         height: 250px;
-        float: left;
     }
     #i {
-        width: 79.17%;
+        grid-area: i;
         height: 150px;
-        float: left;
     }
     
 }
